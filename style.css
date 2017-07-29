@@ -1,0 +1,93 @@
+body{
+	 font-family: Arial, sans-serif;
+}
+
+.red{
+	color:red;
+	box-sizing: border-box;
+	background-color: #808080;
+	display: line-block;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+li{
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+
+body h2{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+
+body p{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 50%;
+}
+
+ul li label {
+	display: inline-block;
+	padding: 10px 15px;
+	width: 100%;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+}
+
+ul li label:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+ul li:nth-child(even) { 
+	background-color: #7a7593;
+}
+
+ul li:nth-child(odd) { 	background-color: #88839e;
+}
+
+ul li label span>span {
+	font-size: 10px;
+}
+
+ul li input:checked+span {
+	text-decoration: line-through;
+}
+
+div p:nth-child(2) {
+	color: green;
+}
+
+div p:nth-of-type(2) {
+}
+
+footer{
+	padding: 0;
+	margin: 0 auto;
+	width: 51%;
+
+}
+
+.red_1{
+	color:red;
+	box-sizing: border-box;
+	background-color: #808080;
+	display: inline-block;
+	width: 98%;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
