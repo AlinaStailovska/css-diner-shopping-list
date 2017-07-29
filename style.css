@@ -68,7 +68,7 @@ ul li input:checked+span {
 }
 
 div p:nth-child(2) {
-	color: green;
+	color: red;
 }
 
 div p:nth-of-type(2) {
